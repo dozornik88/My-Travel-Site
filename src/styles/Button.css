@@ -1,0 +1,19 @@
+.btn {
+	background: #077bf1;
+	white-space: nowrap;
+	padding: 10px 32px;
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	min-width: 100px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.3s !important;
+	border-radius: 50px;
+}
+
+.btn:hover {
+	background: #f26a2e;
+	transform: translateY(-2px);
+}
