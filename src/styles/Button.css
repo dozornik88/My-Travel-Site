@@ -13,6 +13,12 @@
 	border-radius: 50px;
 }
 
+@media screen and (max-width: 960px) {
+	.btn {
+		display: none;
+	}
+}
+
 .btn:hover {
 	background: #f26a2e;
 	transform: translateY(-2px);
