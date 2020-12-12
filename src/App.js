@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Hero from "./components/Hero";
 import Layout from "./components/Layout";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -16,6 +17,7 @@ function App() {
 							<Route path="/about" component={About} />
 						</Switch>
 					</Layout>
+					<Hero />
 				</div>
 			</Router>
 		</>

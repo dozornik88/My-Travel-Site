@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import "../styles/Header.css";
-
+import logo from "../assets/images/logo1.png";
 import Button from "./Button";
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
 			<nav className="navbar">
 				<div className="navbar-container">
 					<Link to="/" className="navbar-logo">
-						Travel Blog
+						Noterance <img alt="logo" src={logo} className="logo" />
 					</Link>
 					<div className="menu-icon" onClick={handleClick}>
 						<i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -28,12 +28,12 @@ const Header = () => {
 						</li>
 						<li className="nav-item">
 							<Link to="/services" className="nav-links">
-								Services
+								Notes
 							</Link>
 						</li>
 						<li className="nav-item">
 							<Link to="/products" className="nav-links">
-								Products
+								Perfumes
 							</Link>
 						</li>
 						<li className="nav-item">

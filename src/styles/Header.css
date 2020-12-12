@@ -29,6 +29,12 @@
 	align-items: center;
 }
 
+.logo {
+	height: 90px;
+	width: 90px;
+	margin-top: 0.5rem;
+}
+
 .fa-typo3 {
 	margin-left: 0.5rem;
 	font-size: 1.8rem;
