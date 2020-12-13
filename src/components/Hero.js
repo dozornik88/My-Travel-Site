@@ -9,7 +9,6 @@ const Hero = () => {
 			<video src={Video} autoPlay loop muted />
 			<h1>Find Your Scent</h1>
 			<p>What are you waiting for?</p>
-
 			<div className="SearchBar">
 				<SearchBar />
 			</div>

@@ -6,11 +6,17 @@ input[type="text"] {
 	margin-top: 10px;
 	box-shadow: 3px 3px 7px black;
 	background-color: black;
-	border-color: orange;
+	border-color: #f26a2e;
 	-webkit-transition: width 0.4s ease-in-out;
 	transition: width 0.4s ease-in-out;
 	text-align: center;
 	font-size: medium;
+	transition: 0.3s !important;
+	color: white;
+}
+
+::placeholder {
+	color: #fff;
 }
 
 input[type="text"]:focus {
@@ -19,21 +25,26 @@ input[type="text"]:focus {
 	background-color: white;
 	border-color: white;
 	text-align: left;
+	padding-left: 20px;
 	box-shadow: 3px 3px 7px black;
 	font-size: medium;
 	outline: none;
+	color: black;
 }
 
+input:hover {
+	background: #f26a2e;
+	transform: translateY(-2px);
+}
 @media screen and (max-width: 960px) {
 	input[type="text"] {
 		display: block;
 		border-radius: 20px;
-		height: 2.8rem;
+		height: 3.7rem;
+		width: 9rem;
 		margin-top: 10px;
-		width: 5.5rem;
 		background-color: black;
-		border-color: orange;
-
+		border-color: #f26a2e;
 		-webkit-transition: width 0.4s ease-in-out;
 		transition: width 0.4s ease-in-out;
 		text-align: center;
@@ -55,11 +66,11 @@ input[type="text"]:focus {
 	input[type="text"] {
 		display: block;
 		border-radius: 20px;
-		height: 2.8rem;
+		height: 3.5rem;
+		width: 8rem;
 		margin-top: 10px;
-		width: 5.5rem;
 		background-color: black;
-		border-color: orange;
+		border-color: #f26a2e;
 
 		-webkit-transition: width 0.4s ease-in-out;
 		transition: width 0.4s ease-in-out;
