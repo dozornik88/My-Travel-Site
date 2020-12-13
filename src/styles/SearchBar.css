@@ -1,9 +1,79 @@
 input[type="text"] {
-	width: 130px;
+	display: block;
+	border-radius: 20px;
+	height: 3.5rem;
+	width: 10rem;
+	margin-top: 10px;
+	box-shadow: 3px 3px 7px black;
+	background-color: black;
+	border-color: orange;
 	-webkit-transition: width 0.4s ease-in-out;
 	transition: width 0.4s ease-in-out;
+	text-align: center;
+	font-size: medium;
 }
 
 input[type="text"]:focus {
-	width: 100%;
+	width: 50rem;
+	border-radius: 20px;
+	background-color: white;
+	border-color: white;
+	text-align: left;
+	box-shadow: 3px 3px 7px black;
+	font-size: medium;
+	outline: none;
+}
+
+@media screen and (max-width: 960px) {
+	input[type="text"] {
+		display: block;
+		border-radius: 20px;
+		height: 2.8rem;
+		margin-top: 10px;
+		width: 5.5rem;
+		background-color: black;
+		border-color: orange;
+
+		-webkit-transition: width 0.4s ease-in-out;
+		transition: width 0.4s ease-in-out;
+		text-align: center;
+	}
+
+	input[type="text"]:focus {
+		width: 35rem;
+		border-radius: 20px;
+		background-color: white;
+		border-color: white;
+		text-align: left;
+		box-shadow: 3px 3px 7px black;
+		font-size: medium;
+		outline: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	input[type="text"] {
+		display: block;
+		border-radius: 20px;
+		height: 2.8rem;
+		margin-top: 10px;
+		width: 5.5rem;
+		background-color: black;
+		border-color: orange;
+
+		-webkit-transition: width 0.4s ease-in-out;
+		transition: width 0.4s ease-in-out;
+		text-align: center;
+	}
+
+	input[type="text"]:focus {
+		width: 25rem;
+		border-radius: 20px;
+		background-color: white;
+		border-color: white;
+		text-align: left;
+		box-shadow: 3px 3px 7px black;
+		font-size: medium;
+		outline: none;
+	}
 }

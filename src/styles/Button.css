@@ -1,11 +1,12 @@
 .btn {
-	background: #077bf1;
+	background: black;
 	white-space: nowrap;
 	padding: 10px 32px;
 	color: #fff;
 	font-size: 16px;
 	outline: none;
-	border: none;
+
+	border-color: orange;
 	min-width: 100px;
 	cursor: pointer;
 	text-decoration: none;
