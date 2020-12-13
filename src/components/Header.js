@@ -23,9 +23,10 @@ const Header = () => {
 					<ul className={click ? "nav-menu active" : "nav-menu"}>
 						<li className="nav-item">
 							<Link to="/" className="nav-links" onClick={closeMobileMenu}>
-								Home
+								Fragrances
 							</Link>
 						</li>
+
 						<li className="nav-item">
 							<Link to="/services" className="nav-links">
 								Notes
@@ -36,13 +37,15 @@ const Header = () => {
 								Perfumes
 							</Link>
 						</li>
+
 						<li className="nav-item">
 							<Link to="/sign-up" className="nav-links-mobile">
-								Sign up
+								Sign up/Log in
 							</Link>
 						</li>
 					</ul>
-					<Button />
+					<Button className="left-btn">Sign Up</Button>
+					{/* <button className="right-btn">Sign In</button> */}
 				</div>
 			</nav>
 		</>
