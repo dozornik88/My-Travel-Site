@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import NotesCategory from "../data/NotesCategory.json";
+import AllNotes from "../data/AllNotes.json";
+
 const Notes = () => {
 	return (
 		<div>
@@ -13,9 +14,16 @@ const Notes = () => {
 					);
 				})}
 			</div>
-			Hello world2
-			<button>Click</button>
-			<Link to="/">Navigate</Link>
+			<div>
+				{AllNotes.map((notecat) => {
+					return (
+						<>
+							<img src={notecat.photo} alt="note" />
+							<h4>{notecat.title}</h4>
+						</>
+					);
+				})}
+			</div>
 		</div>
 	);
 };
