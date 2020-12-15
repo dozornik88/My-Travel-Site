@@ -1,0 +1,31 @@
+.note-category-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.note-title {
+	text-align: center;
+}
+
+.note-category-navbar {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+	font-size: small;
+
+	margin: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 2px #ccc;
+	width: 11rem;
+	padding: 20px;
+}
+
+.note-items {
+	display: inline-block;
+	margin: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 2px #ccc;
+	width: 200px;
+	padding: 20px;
+}
