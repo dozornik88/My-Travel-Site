@@ -217,13 +217,13 @@
 		color: #fff;
 		transition: 250ms;
 	}
-	/* .left-btn {
+	.left-btn {
 		display: none;
 	}
 
 	.right-btn {
 		display: none;
-	} */
+	}
 }
 
 @media screen and (max-width: 960px) {

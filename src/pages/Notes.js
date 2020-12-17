@@ -36,8 +36,10 @@ function Notes() {
 					Wood
 				</a>
 			</div>
-			<div className="search-notes">
-				<input type="text" name="searchbar" placeholder="Search" />
+			<div className="note-searchbar-container">
+				<div className="note-searchbar">
+					<input type="search" name="searchbar" placeholder="Search" />
+				</div>
 			</div>
 			<div className="note-title">
 				{noteCategories

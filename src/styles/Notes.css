@@ -31,8 +31,34 @@
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.search-notes {
-	align-items: center;
+.note-searchbar {
+	text-align: center;
+}
+
+input[type="search"] {
+	border-radius: 20px;
+	height: 3.5rem;
+	width: 50rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 3px 3px 7px black;
+	background-color: black;
+	border-color: #f26a2e;
+	text-align: center;
+	font-size: medium;
+	color: white;
+}
+
+input[type="search"]:focus {
+	border-radius: 20px;
+	background-color: white;
+	border-color: white;
+	text-align: left;
+	padding-left: 20px;
+	box-shadow: 3px 3px 7px black;
+	font-size: medium;
+	outline: none;
+	color: black;
 }
 
 .note-items {
@@ -48,4 +74,30 @@
 
 .note-items:hover {
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+@media screen and (max-width: 768px) {
+	input[type="search"] {
+		border-radius: 20px;
+		height: 3.5rem;
+		width: 25rem;
+		margin-top: 10px;
+		background-color: black;
+		border-color: #f26a2e;
+		text-align: center;
+	}
+
+	.note-searchbar {
+		text-align: center;
+	}
+
+	input[type="search"]:focus {
+		width: 25rem;
+		border-radius: 20px;
+		background-color: white;
+		border-color: white;
+		box-shadow: 3px 3px 7px black;
+		font-size: medium;
+		outline: none;
+	}
 }
