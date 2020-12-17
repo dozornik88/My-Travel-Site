@@ -9,6 +9,7 @@ const allNotes = AllNotes;
 function Notes() {
 	return (
 		<>
+			<h1 className="note-category-titles">Categories</h1>
 			<div className="note-category-container">
 				<a className="note-category-navbar" href="#1">
 					Citrus Notes
@@ -34,6 +35,9 @@ function Notes() {
 				<a className="note-category-navbar" href="#8">
 					Wood
 				</a>
+			</div>
+			<div className="search-notes">
+				<input type="text" name="searchbar" placeholder="Search" />
 			</div>
 			<div className="note-title">
 				{noteCategories
