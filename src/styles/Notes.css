@@ -35,6 +35,11 @@
 	text-align: center;
 }
 
+input[type="search"]:hover {
+	background: white;
+	transform: translateY(0px);
+}
+
 input[type="search"] {
 	border-radius: 20px;
 	height: 3.5rem;
@@ -42,11 +47,11 @@ input[type="search"] {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	box-shadow: 3px 3px 7px black;
-	background-color: black;
-	border-color: #f26a2e;
+	background-color: white;
+	border-color: black;
 	text-align: center;
 	font-size: medium;
-	color: white;
+	color: black;
 }
 
 input[type="search"]:focus {
@@ -82,7 +87,7 @@ input[type="search"]:focus {
 		height: 3.5rem;
 		width: 25rem;
 		margin-top: 10px;
-		background-color: black;
+		background-color: #fff;
 		border-color: #f26a2e;
 		text-align: center;
 	}
@@ -94,8 +99,8 @@ input[type="search"]:focus {
 	input[type="search"]:focus {
 		width: 25rem;
 		border-radius: 20px;
-		background-color: white;
-		border-color: white;
+		background-color: black;
+		border-color: black;
 		box-shadow: 3px 3px 7px black;
 		font-size: medium;
 		outline: none;
