@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import NotesCategory from "../data/NotesCategory.json";
 import AllNotes from "../data/AllNotes.json";
 import "../styles/Notes.css";
@@ -80,10 +81,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -121,10 +126,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -161,10 +170,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -198,10 +211,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -235,10 +252,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -261,10 +282,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -286,10 +311,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -327,10 +356,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -353,10 +386,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -390,10 +427,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -413,10 +454,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>
@@ -452,10 +497,14 @@ function Notes() {
 						})
 						.map((val, key) => (
 							<>
-								<div className="note-items" key={key}>
+								<Link
+									to={"/note-description/" + val.title}
+									className="note-items"
+									key={key}
+								>
 									<img src={val.photo} alt="note pic" />
 									<h4>{val.title}</h4>
-								</div>
+								</Link>
 							</>
 						))}
 				</div>

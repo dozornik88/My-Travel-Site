@@ -28,18 +28,26 @@ const Header = () => {
 						</li>
 
 						<li className="nav-item">
-							<Link to="/notes" className="nav-links">
+							<Link to="/notes" className="nav-links" onClick={closeMobileMenu}>
 								Notes
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/products" className="nav-links">
+							<Link
+								to="/products"
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
 								Perfumes
 							</Link>
 						</li>
 
 						<li className="nav-item">
-							<Link to="/sign-up" className="nav-links-mobile">
+							<Link
+								to="/sign-up"
+								className="nav-links-mobile"
+								onClick={closeMobileMenu}
+							>
 								Sign up/Log in
 							</Link>
 						</li>

@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Notes from "./pages/Notes";
 import Home from "./pages/Home";
+import NoteDescription from "./pages/NoteDescription";
+
 function App() {
 	return (
 		<>
@@ -13,6 +15,10 @@ function App() {
 						<Switch>
 							<Route path="/" exact component={Home} />
 							<Route path="/notes" component={Notes} />
+							<Route
+								path="/note-description/:title"
+								component={NoteDescription}
+							/>
 							<Route path="/contact" component={Contact} />
 							<Route path="/about" component={About} />
 						</Switch>
