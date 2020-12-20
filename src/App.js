@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Notes from "./pages/Notes";
 import Home from "./pages/Home";
 import NoteDescription from "./pages/NoteDescription";
+import Perfumes from "./pages/Perfumes";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 								path="/note-description/:title"
 								component={NoteDescription}
 							/>
+							<Route path="/perfumes" component={Perfumes} />
 							<Route path="/contact" component={Contact} />
 							<Route path="/about" component={About} />
 						</Switch>
