@@ -11,7 +11,7 @@ function Notes() {
 	const [searchTerm, setSearchTerm] = useState("");
 
 	return (
-		<>
+		<div className="note-category-container-all">
 			<h1 className="note-category-titles">Categories</h1>
 			<div className="note-category-container">
 				<a className="note-category-navbar" href="#1">
@@ -39,6 +39,7 @@ function Notes() {
 					Wood
 				</a>
 			</div>
+			<h2 className="note-category-titles">Search by Notes</h2>
 			<div className="note-searchbar-container">
 				<div className="note-searchbar">
 					<input
@@ -509,7 +510,7 @@ function Notes() {
 						))}
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 

@@ -1,3 +1,7 @@
+.note-category-container-all {
+	background-color: black;
+}
+
 .note-category-container {
 	display: flex;
 	align-items: center;
@@ -7,29 +11,36 @@
 
 .note-title {
 	text-align: center;
+	color: #fff;
 }
 
 .note-category-titles {
 	text-align: center;
+	color: #fff;
 }
 
 .note-category-navbar {
 	text-decoration: none;
 	cursor: pointer;
-	color: black;
+	color: #fff;
 	font-size: small;
+	font-weight: bold;
 	border-radius: 20px;
 	margin: 10px;
-	border: 1px solid #ccc;
+	border: 2px solid #f26a2e;
 	text-align: center;
 	width: 11rem;
 	padding: 20px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 1px 3px rgba(218, 112, 63, 0.541),
+		0 1px 2px rgba(218, 112, 63, 0.541);
 	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .note-category-navbar:hover {
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	box-shadow: 6px 8px 28px rgba(218, 112, 63, 0.541),
+		4px 5px 12px rgba(218, 112, 63, 0.541);
+	background: #f26a2e;
+	transform: translateY(-2px);
 }
 
 .note-searchbar {
@@ -49,7 +60,7 @@ input[type="search"] {
 	margin-bottom: 10px;
 	box-shadow: 3px 3px 7px black;
 	background-color: white;
-	border-color: black;
+
 	text-align: center;
 	font-size: medium;
 	color: black;
@@ -70,28 +81,42 @@ input[type="search"]:focus {
 .note-items {
 	display: inline-block;
 	margin: 10px;
-	border: 1px solid #ccc;
+	border: 2px solid #f26a2e;
+	border-radius: 20px;
 	box-shadow: 0 2px 2px #ccc;
 	text-decoration: none;
-	color: black;
+	color: #fff;
 	width: 200px;
 	padding: 20px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 1px 1px 3px rgba(218, 112, 63, 0.541),
+		0 1px 2px rgba(218, 112, 63, 0.541);
 	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .note-items:hover {
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	box-shadow: 6px 8px 28px rgba(218, 112, 63, 0.541),
+		4px 5px 12px rgba(218, 112, 63, 0.541);
+	background: #f26a2e;
+	transform: translateY(-2px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
+	.note-category-navbar {
+		display: none;
+	}
+	.note-category-titles {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 820px) {
 	input[type="search"] {
 		border-radius: 20px;
 		height: 3.5rem;
 		width: 25rem;
 		margin-top: 10px;
 		background-color: #fff;
-		border-color: #f26a2e;
+
 		text-align: center;
 	}
 
@@ -102,7 +127,7 @@ input[type="search"]:focus {
 	input[type="search"]:focus {
 		width: 25rem;
 		border-radius: 20px;
-		background-color: black;
+		background-color: #fff;
 		border-color: black;
 		box-shadow: 3px 3px 7px black;
 		font-size: medium;
