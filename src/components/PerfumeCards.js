@@ -7,14 +7,15 @@ const parfumes = Parfumes;
 const PerfumeCards = () => {
 	return (
 		<>
-			<div>
-				{parfumes.slice(0, 10).map((parfumes) => (
+			<div className="perfume-card-container">
+				{parfumes.slice(0, 20).map((parfumes) => (
 					<div className="perfumecards-items">
 						<img
 							className="perfumecard-pic"
 							src={parfumes.parfume_photo}
 							alt="perfume pic"
 						/>
+						<h4>{parfumes.parfume_title}</h4>
 					</div>
 				))}
 			</div>
