@@ -11,7 +11,11 @@ const SideBar = () => {
 							<h2 className="filter-name">Filter</h2>
 							<button className="filter-clear">Clear Filter</button>
 						</div>
-
+						<input
+							className="sidebar-searchbar"
+							name="searchbar"
+							placeholder="Search"
+						/>
 						<div className="round">
 							<h3 className="sidebar-category-title">Categories</h3>
 							<label className="container">
