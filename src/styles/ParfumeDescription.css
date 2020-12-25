@@ -1,0 +1,86 @@
+.parfume-description-container {
+	width: 100%;
+	height: auto;
+	background-color: black;
+}
+
+.parfume-description-container-box {
+	width: 50rem;
+	height: auto;
+	border: 3px solid #f26a2e;
+	margin: auto;
+	margin-top: 1rem;
+	border-radius: 20px;
+}
+
+.parfume-single-title {
+	margin-bottom: 1rem;
+	font-size: xx-large;
+	text-align: center;
+	color: #fff;
+	border-bottom: 3px solid #f26a2e;
+}
+
+.parfume-description-container {
+	text-align: center;
+	color: #fff;
+}
+
+.parfume-photo {
+	margin-bottom: 1rem;
+	width: 25rem;
+}
+
+.parfume-brand-year-gender {
+	display: table;
+	width: 100%;
+	font-size: large;
+	table-layout: fixed;
+	border-spacing: 10px;
+	border-top: 3px solid #f26a2e;
+	border-bottom: 3px solid #f26a2e;
+}
+
+.parfume-brand {
+	display: table-cell;
+	border-right: 3px solid #f26a2e;
+}
+
+.parfume-year {
+	display: table-cell;
+}
+
+.parfume-gender {
+	display: table-cell;
+	border-right: 3px solid #f26a2e;
+}
+
+.parfume-notes-all {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	font-size: large;
+	border-spacing: 10px;
+	border-bottom: 3px solid #f26a2e;
+}
+
+.parfume-notes-top {
+	display: table-cell;
+	border-right: 3px solid #f26a2e;
+}
+
+.parfume-notes-middle {
+	display: table-cell;
+	border-right: 3px solid #f26a2e;
+}
+
+.parfume-notes-base {
+	display: table-cell;
+}
+
+.parfume-description {
+	padding: 10px;
+	margin-top: 0.3rem;
+	margin-bottom: 0.8rem;
+	font-size: large;
+}

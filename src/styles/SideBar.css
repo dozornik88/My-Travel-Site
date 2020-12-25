@@ -1,12 +1,14 @@
 .sidebar-container {
-	height: auto;
+	height: 100rem;
 	width: 14rem;
 	background-color: black;
 	color: #fff;
+	float: left;
 }
 .container {
 	display: block;
 	position: relative;
+
 	padding-left: 35px;
 	margin-top: 1px;
 	cursor: pointer;
