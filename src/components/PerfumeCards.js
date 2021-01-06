@@ -24,6 +24,9 @@ const PerfumeCards = () => {
 						<h4>{parfumes.parfume_title}</h4>
 					</Link>
 				))}
+				<div className="load-more">
+					<button>Load More</button>
+				</div>
 			</div>
 		</>
 	);
